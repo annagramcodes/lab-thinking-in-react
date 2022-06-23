@@ -39,7 +39,7 @@ function SearchBar(props) {
           />
         </InputGroup>
 
-        <Checkbox value={isChecked} onChange={handleCheck}>
+        <Checkbox colorScheme="pink" value={isChecked} onChange={handleCheck}>
           Show only available items
         </Checkbox>
       </Stack>

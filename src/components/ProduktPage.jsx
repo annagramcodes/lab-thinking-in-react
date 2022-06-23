@@ -24,7 +24,9 @@ function ProduktPage() {
 
   return (
     <div>
-      <Heading py={10}>Ironstore</Heading>
+      <Heading color="white" bg="pink.500" fontSize="6xl" pt={6} pb={6} mb={14}>
+        Ironstore
+      </Heading>
       <SearchBar filterProducts={filterProducts} />
       <ProduktTable products={productsData} />
     </div>
